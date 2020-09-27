@@ -1,0 +1,14 @@
+.item-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	.item {
+		text-align: center;
+		box-shadow: 0 0 6px #000;
+		margin: 6px;
+		padding: 4px;
+		.img {
+			width: 300px;
+			margin-bottom: 5px;
+		}
+	}
+}
