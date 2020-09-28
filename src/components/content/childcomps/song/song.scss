@@ -1,0 +1,23 @@
+.song-list-wrapper {
+	margin-bottom: 10px;
+	.song-list {
+		display: flex;
+		text-align: center;
+		flex-wrap: wrap;
+		.song-wrapper {
+			width: 320px;
+			margin: 6px;
+			padding: 4px;
+			box-shadow: 0 0 6px #000;
+			transition: all 0.3s ease;
+			.song-cover {
+				width: 300px;
+				margin-bottom: 15px;
+			}
+			&:hover {
+				transform: scale(1.03) rotate(1deg);
+				opacity: 0.9;
+			}
+		}
+	}
+}
